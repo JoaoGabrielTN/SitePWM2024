@@ -2,13 +2,14 @@ html {
     background-color: #1b1b1b; /* Define a cor de fundo para toda a página */
 }
 body{
+    font-family:arial;
     color: #fff;
 }
 
 p {
     text-align: justify;
     margin-top: 10px; /* Adiciona uma margem de 10 pixels na parte superior */
-    margin-bottom: 10px; /* Adiciona uma margem de 10 pixels na parte inferior */
+     /* Adiciona uma margem de 10 pixels na parte inferior */
     margin-left: 0; /* Adiciona uma margem de 0 pixels à esquerda */
     margin-right: 0; /* Adiciona uma margem de 0 pixels à direita */
 }
@@ -43,7 +44,7 @@ figcaption {
 
 
 .link {
-    color: blue; /* Define a cor padrão do link */
+    color: #55a3a3;
     text-decoration: none; /* Remove o sublinhado padrão */
     transition: color 0.3s; /* Adiciona uma transição suave para a mudança de cor */
 }
