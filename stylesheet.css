@@ -42,6 +42,17 @@ figcaption {
 }
 
 
+.link {
+    color: blue; /* Define a cor padrão do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    transition: color 0.3s; /* Adiciona uma transição suave para a mudança de cor */
+}
+
+.link:hover {
+    color: #fff; /* Define a nova cor do link quando o mouse passa sobre ele */
+}
+
+
 .container>div {
     flex: 1;
     margin: 0 0px;
