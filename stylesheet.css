@@ -1,6 +1,23 @@
+html {
+    background-color: #1b1b1b; /* Define a cor de fundo para toda a página */
+}
+body{
+    color: #fff;
+}
+
 p {
     text-align: justify;
+    margin-top: 10px; /* Adiciona uma margem de 10 pixels na parte superior */
+    margin-bottom: 10px; /* Adiciona uma margem de 10 pixels na parte inferior */
+    margin-left: 0; /* Adiciona uma margem de 0 pixels à esquerda */
+    margin-right: 0; /* Adiciona uma margem de 0 pixels à direita */
 }
+
+.central { 
+    width: 50%; /* Set a fixed width for the body element */ 
+    height: 100%;
+    margin: 0 auto; /* Center the body element within its parent */ 
+  } 
 
 footer {
     background-color: #041529;
@@ -16,9 +33,18 @@ footer {
     flex-wrap: wrap;
 }
 
+img {
+    display: block; /* Ensures the image behaves as a block element */
+    margin: auto; /* Centers the image horizontally */
+}
+figcaption {
+    text-align: center;
+}
+
+
 .container>div {
     flex: 1;
-    margin: 0 10px;
+    margin: 0 0px;
 }
 
 .links ul {
