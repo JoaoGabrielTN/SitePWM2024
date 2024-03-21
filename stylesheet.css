@@ -6,18 +6,25 @@ body{
     color: #fff;
 }
 
-p {
-    text-align: justify;
-    margin-top: 10px; /* Adiciona uma margem de 10 pixels na parte superior */
-     /* Adiciona uma margem de 10 pixels na parte inferior */
-    margin-left: 0; /* Adiciona uma margem de 0 pixels à esquerda */
-    margin-right: 0; /* Adiciona uma margem de 0 pixels à direita */
+.top_container {
+    text-align: center;
+    width: 100%; /* Define a largura do container como 100% */
+    padding: 0px; /* Adiciona espaço interno ao container */
+    max-height: 50px;
+    background-color: #2d2d2d; /* Define uma cor de fundo para o container */
+    border-bottom: 1px solid #ccc; /* Adiciona uma borda na parte inferior do container */
+    position: fixed; /* Define o container como fixo */
+    top: 0; /* Define o container no topo da página */
+    left: 0; /* Define o container alinhado à esquerda */
+    z-index: 1000; /* Define a ordem de empilhamento (z-index) do container */
 }
 
 .central { 
-    width: 50%; /* Set a fixed width for the body element */ 
+    width: 50%;
     height: 100%;
-    margin: 0 auto; /* Center the body element within its parent */ 
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: justify;
   } 
 
 footer {

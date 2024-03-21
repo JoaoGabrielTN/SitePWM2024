@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>João Gostoso</title>
+    <title>Meu site legal</title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 
@@ -14,14 +14,14 @@
             <h1>Meu Site</h1>
             <nav>
                 <ul>
-                    <li><a href="#sobre" class="link">Sobre</a></li>
-                    <li><a href="#projeto 1" class="link">Projeto 1</a></li>
-                    <li><a href="#projeto 2" class="link">Projeto 2</a></li>
-                    <li><a href="#contato" class="link">Contato</a></li>
+                    <li><h2><a href="#sobre" class="link">Sobre</a></h2></li>
+                    <li><h2><a href="#projeto 1" class="link">Projeto 1</a></h2></li>
+                    <li><h2><a href="#projeto 2" class="link">Projeto 2</a></h2></li>
+                    <li><h2><a href="#contato" class="link">Contato</a></h2></li>
                 </ul>
             </nav>
         </header>
-        <section id="sobre">
+        <article id="sobre">
             <h2>Sobre mim</h2>
             <p>
                 Olá, meu nome é João. Eu sou o melhor programdor do mundo, so que não &#128518;. Atualmente sou apenas
@@ -33,41 +33,49 @@
                 vez
                 eu consiga publicar um artigo &#128578;.
             </p>
-        </section>
+        </article>
 
         <section id="projeto 1">
             <h1>Projeto 1</h1>
             <p>
-                Eu fiz um projeto de Banco de Dados. O objetivo era criar o modelo ER (Entidade Relacionamento) de uma
+                Eu fiz um <a href="https://github.com/JoaoGabrielTN/ModeloBD" class="link">projeto</a> de Banco de Dados. O objetivo era criar o modelo ER (Entidade Relacionamento) de uma
                 biblioteca. Os
                 requisitos básicos para o projeto foram as seguintes entidades: livro, usuário, autor e emprestimo.
             </p>
-            <a href="https://github.com/JoaoGabrielTN/ModeloBD" class="link">Meu incrível modelo de Banco de Dados I</a>
             <p>E como meu professor é muito legal, ele vai me dar 10 nos dois projetos, certo?</p>
             <figure>
-                <img src="/vaiMeDar10certo.png" alt="Descrição da imagem" width="500" height="500"></img>
+                <img src="/Imagens/vaiMeDar10certo.png" alt="Descrição da imagem" width="500" height="500"></img>
                 <figcaption>Uma figura de baixíssima qualidade, igual a esse site.</figcaption>
             </figure>
 
             <figure>
-                <img src="/ProjestoBDSM.png" alt="Descrição da imagem"  height="500" ></img>
+                <img src="/Imagens/ProjestoBDSM.png" alt="Descrição da imagem" width="500" height="500"></img>
                 <figcaption>Imagem do diagrama. Pena que não dá para enxergar.</figcaption>
             </figure>
             <table border="1">
                 <tr>
-                    <th>Entidade</th><th>Relacionamentos</th>
+                    <th>Entidade</th>
+                    <th>Relacionamentos</th>
                 </tr>
                 <tr>
-                    <td>Autor</td><td>Nota</td>
+                    <td>Autor</td>
+                    <td>Escreve</td>
                 </tr>
                 <tr>
-                    <td>Livro</td><td>10,0</td>
+                    <td>Livro</td>
+                    <td>É emprestado</td>
                 </tr>
                 <tr>
-                    <td>Usuário</td><td>10,0</td>
+                    <td>Usuário</td>
+                    <td>Pega emprestado</td>
                 </tr>
                 <tr>
-                    <td></td><td>Emprestimo</td>
+                    <td></td>
+                    <td>Emprestimo</td>
+                </tr>
+                <tr>
+                    <td>Publicadora</td>
+                    <td>Publica</td>
                 </tr>
             </table>
         </section>
@@ -76,7 +84,7 @@
             <p>
                 Como eu já disse antes, eu participo do PIBIC. Como aprendizagem de máuqina é um assunto vasto e
                 desafiador
-                (para meros mortais como eu) decidi criar um projeto introdutório na área. Ele é um projeto ainda em
+                (para meros mortais como eu) decidi criar um <a href="https://github.com/JoaoGabrielTN/MachineLearning" class="link"> projeto</a> introdutório na área. Ele é um projeto ainda em
                 andamento,
                 onde eu implemento técnicas de aprendizagem de máquina a partir do zero, sem a ajuda de bibliotecas como
                 TensorFlow,
@@ -85,20 +93,38 @@
                 oferecer
                 uma introdução ao assunto.
             </p>
-            <a href="https://github.com/JoaoGabrielTN/MachineLearning" class="link"> MachineLearningÉLegal</a>
             <figure>
-                <img src="/img_00448.png" alt="Descrição da imagem"  height="500" ></img>
+                <img src="/Imagens/img_00448.png" alt="Descrição da imagem" height="500"></img>
                 <figcaption>Exemplo de uma imagem de pedestre.</figcaption>
             </figure>
             <table border="1">
                 <tr>
-                <td>Aluno</td><td>Nota</td>
+                    <th>Imagem</td>
+                    <th>Rótulo</td>
                 </tr>
                 <tr>
-                <td>Carlos</td><td>10,0</td>
+                    <td>Img1</td>
+                    <td>1</td>
                 </tr>
                 <tr>
-                <td>Maria</td><td>10,0</td>
+                    <td>Img2</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Img3</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Img4</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Img5</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>...</td>
+                    <td>...</td>
                 </tr>
             </table>
             <p>
@@ -108,7 +134,8 @@
                 Científica. O código é apenas um pequeno tratamento de dados realizado no DAIMLER dataset de Gravila e
                 Munders, você
                 pode acessar ele <a
-                    href="http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html" class="link">aqui</a>.
+                    href="http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html"
+                    class="link">aqui</a>.
             </p>
         </section>
     </div>
@@ -127,14 +154,14 @@
                 <div class="contato">
                     <h3>Contato</h3>
                     <p>Endereço: Rua Exemplo, 123</p>
-                    <p>Email: exemplo@example.com</p>
+                    <p>Email: joao.00000845222@unicap.br</p>
                     <p>Telefone: (00) 1234-5678</p>
                 </div>
                 <div class="social">
-                    <h3>Siga-nos</h3>
+                    <h3>Siga-me</h3>
                     <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>|
+                        <li><a href="#">Twitter</a></li>|
                         <li><a href="#">Instagram</a></li>
                     </ul>
                 </div>
