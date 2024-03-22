@@ -6,17 +6,12 @@ body{
     color: #fff;
 }
 
-.top_container {
-    text-align: center;
-    width: 100%; /* Define a largura do container como 100% */
-    padding: 0px; /* Adiciona espaço interno ao container */
-    max-height: 50px;
-    background-color: #2d2d2d; /* Define uma cor de fundo para o container */
-    border-bottom: 1px solid #ccc; /* Adiciona uma borda na parte inferior do container */
-    position: fixed; /* Define o container como fixo */
-    top: 0; /* Define o container no topo da página */
-    left: 0; /* Define o container alinhado à esquerda */
-    z-index: 1000; /* Define a ordem de empilhamento (z-index) do container */
+.leftbar{
+    right: 60px;
+    position:fixed;
+    width: 178px;
+    top: 192px;
+    background-color: #1b1b1b;
 }
 
 .central { 
@@ -25,7 +20,12 @@ body{
     margin: 0 auto;
     padding-top: 60px;
     text-align: justify;
-  } 
+}
+.central table { 
+    position: center;
+    margin: auto;
+}
+
 
 footer {
     background-color: #041529;
