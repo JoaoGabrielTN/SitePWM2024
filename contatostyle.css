@@ -1,5 +1,5 @@
 body{
-    font-family:arial;
+    font-family: sans-serif;
 }
 h1{
     text-align: center;
@@ -24,3 +24,4 @@ input, textarea {
     border-radius: 4px;
     box-sizing: border-box;
 }
+
