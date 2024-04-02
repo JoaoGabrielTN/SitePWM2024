@@ -1,32 +1,31 @@
+/* Geral */
 html {
-    background-color: #1b1b1b; 
+    background-color: #1b1b1b; /* Define a cor de fundo para toda a página */
 }
-body{
-    font-family: 'Lato', sans-serif;
-    color: #fff;
-}
-
-.leftbar{
-    position: sticky;
-    right: 180px;
-    position: fixed;
-    width: 178px;
-    top: 192px;
-    background-color: #1b1b1b;
+.main-wrapper{
+    color: white;
 }
 
-.central { 
+.main{
     width: 50%;
-    height: 100%;
     margin: 0 auto;
-    padding-top: 60px;
-    text-align: justify;
-}
-.central table { 
-    position: center;
-    margin: auto;
 }
 
+table { 
+    position: center;
+    margin: 0 auto;
+}
+
+img {
+    display: block; /* Ensures the image behaves as a block element */
+    margin: auto; /* Centers the image horizontally */
+}
+figcaption {
+    text-align: center;
+}
+
+
+/* Footer */
 
 footer {
     background-color: #041529;
@@ -41,15 +40,6 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
-img {
-    display: block; /* Ensures the image behaves as a block element */
-    margin: auto; /* Centers the image horizontally */
-}
-figcaption {
-    text-align: center;
-}
-
 .link {
     color: #55a3a3;
     text-decoration: none; /* Remove o sublinhado padrão */
@@ -124,7 +114,16 @@ figcaption {
     text-decoration: none;
 }
 
-/* TESTE PARA O HEADER */
+/* Barra de navegação */
+
+.leftbar{
+    position: sticky;
+    right: 180px;
+    position: fixed;
+    width: 178px;
+    top: 192px;
+    background-color: #1b1b1b;
+}
 
 nav{
     float: none; 

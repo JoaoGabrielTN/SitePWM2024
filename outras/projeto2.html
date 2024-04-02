@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 2</title>
+    <link rel="stylesheet" href="./stylec1.css">
+</head>
+
+<div class="main-wrapper">
+    <div class="main">
+        <body>
+            <section id="projeto 2">
+                <h1>Projeto 2</h1>
+                <p>
+                    Como eu já disse antes, eu participo do PIBIC. Como aprendizagem de máuqina é um assunto vasto e
+                    desafiador
+                    (para meros mortais como eu) decidi criar um <a href="https://github.com/JoaoGabrielTN/MachineLearning"
+                        class="link"> projeto</a>
+                    introdutório na área. Ele é um projeto ainda em
+                    andamento, onde eu implemento técnicas de aprendizagem de máquina a partir do zero, sem a ajuda de
+                    bibliotecas como
+                    TensorFlow, Scikit-learn, PyTorch, entre outras. Além disso, o projeto serve como um repositório que tem o
+                    objetivo
+                    de oferecer uma introdução ao assunto.
+                </p>
+                <p>
+                    A pasta PedestrianDetection contém apenas uma parte do có'digo original que eu utilizei no meu trabalho
+                    de
+                    Iniciação
+                    Científica. O código é apenas um pequeno tratamento de dados realizado no DAIMLER dataset de Gravila e
+                    Munders, você
+                    pode acessar ele <a
+                        href="http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html"
+                        class="link">aqui</a>.
+                </p>
+                <p>A figura abaixo mostra uma imagem aleatória de um pedestre do DAIMLER dataset. As imagens do dataset tem
+                    formato
+                    36x18 e variam em tonalidades de cinza, ou seja, são imagens PGM.
+                </p>
+                <figure>
+                    <img src="/Imagens/img_00448.png" alt="Descrição da imagem" height="500"></img>
+                    <figcaption>Exemplo de uma imagem de pedestre.</figcaption>
+                </figure>
+                <p>
+                    O código disponível no repositório apenas faz um pequeno tratamento nas imagens. Ainda falta alguns
+                    detalhes, porém
+                    a planificação das matrizes (imagens) e o embaralhamento dos dados já foi realizado. A tabela 2 mostra um
+                    exemplo
+                    de como a rotulação é feita.
+                </p>
+                <table border="1">
+                    <caption>Tabela 2: rotulação das instências</caption>
+                    <tr>
+                        <th>Imagem</td>
+                        <th>Rótulo</td>
+                    </tr>
+                    <tr>
+                        <td>pedestre</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>pedestre</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>não pedestre</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>pedestre</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>não pedestre</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                </table>
+                <p>
+                    Uma iamgem recebe rótulo 1 caso seja de pedreste, caso contrário, recebe rótulo 0. O Dataset é bem simples,
+                    com 39000 imagens no total,
+                    todas elas tendo baixa resolução. Não é um <a href="https://www.image-net.org/challenges/LSVRC/2012/"
+                        class="link">ILSVRC2012</a> da vida, mas já
+                    serve como um conjunto de dados básico para aprender aprendizagem de máquina.
+                </p>
+            </section>
+        </body>
+    </div>
+    <section id="contato">
+        <footer>
+            <div class="container">
+                <div class="links">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre mim</a></li>
+                    </ul>
+                </div>
+                <div class="contato">
+                    <h3>Contato</h3>
+                    <p>Email: joao.00000845222@unicap.br</p>
+                    <p>Telefone: (81) 99684-5391</p>
+                    <a href="/contato.html" class="link">Contato</a>
+                </div>
+                <div class="social">
+                    <h3>Siga-me</h3>
+                    <ul>
+                        <li><a href="https://github.com/JoaoGabrielTN">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="legal">
+                <p>&copy; 2024 JoaoGabrielTN. Todos os direitos reservados.</p>
+                <a href="politicaDePrivacidade.html">Política de
+                    Privacidade</a> | <a href="termosDeserviço.html">Termos de Serviço</a>
+            </div>
+        </footer>
+    </section>
+</div>
+</html>

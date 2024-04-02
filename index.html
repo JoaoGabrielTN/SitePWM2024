@@ -17,22 +17,19 @@
                 <ul>
                     <li><a href="#inicio" class="linkh" draggable="false">Inicio</a></li>
                     <li><a href="#sobre" class="linkh" draggable="false">Sobre</a></li>
-                    <li><a href="#projeto 1" class="linkh" draggable="false">Projeto 1</a></li>
-                    <li><a href="#projeto 2" class="linkh" draggable="false">Projeto 2</a></li>
                     <li><a href="#contato" class="linkh" draggable="false">Contato</a></li>
                 </ul>
             </nav>
         </section>
     </div>
-
     <div class="central">
         <section id="inicio">
             <h1>Meu Site</h1>
             <p>Bem vindo ao meu site. Um site lindo e maravilhoso criado como projeto da disciplina de Web Mobile.
-            A página foi dividida em 5 seções. A primeira é está, a segunda é a a seção "Sobre mim", a terceira é a "Projeto 1"
-            a quarta é "Projeto 2" e a seção "Contato", que contem um footer que guarda os links úteis. Lá, ao clicar no link 
-            "contato", você será redirecionado para um formulário de contato. Ao lado direito da página há um header 
-            para ajudar a navegar na página. 
+            A página foi dividida em 4 seções. A primeira é está, a segunda é a a seção "Sobre mim", a terceira 
+            seção contém links para outras páginas e a seção "Contato", que contem um footer que guarda os links úteis. 
+            Lá, ao clicar no link "contato", você será redirecionado para um formulário de contato. Ao lado direito 
+            da página há um header para ajudar a navegar na página. 
             </p>
         </section>
         <article id="sobre">
@@ -47,123 +44,19 @@
                 vez
                 eu consiga publicar um artigo &#128578;.
             </p>
+            <figure>
+                <img src="/Imagens/WhatsApp Image 2024-04-02 at 7.51.18 AM.jpeg" alt="Descrição da imagem" width="500" height="400"></img>
+                <figcaption>Uma foto minha de dois anos atrás :).</figcaption>
+            </figure>
         </article>
-
-        <section id="projeto 1">
-            <h1>Projeto 1</h1>
-            <p>
-                Eu fiz um <a href="https://github.com/JoaoGabrielTN/ModeloBD" class="link">projeto</a> de Banco de Dados. O objetivo era criar o modelo ER (Entidade Relacionamento) de uma
-                biblioteca. Os
-                requisitos básicos para o projeto foram as seguintes entidades: livro, usuário, autor e emprestimo.
-            </p>
-            <p>E como meu professor é muito legal, ele vai me dar 10 nos dois projetos, certo?</p>
-            <figure>
-                <img src="/Imagens/vaiMeDar10certo.png" alt="Descrição da imagem" width="500" height="500"></img>
-                <figcaption>Uma figura de baixíssima qualidade, igual a esse site.</figcaption>
-            </figure>
-            Logo abaixo está uma foto do projeto, com todas as entidades, relacionamentos e atributos. 
-            <figure>
-                <img src="/Imagens/ProjestoBDSM.png" alt="Descrição da imagem" width="500" height="500"></img>
-                <figcaption>Imagem do diagrama. Pena que não dá para enxergar direito.</figcaption>
-            </figure>
-            A tabela 1 mostra as entidades básicas exigidas no projeto e alguns de seus relacionamentos.
-            <table border="1">
-                <caption>Tabela 1: equisitos mínimos</caption>
-                <tr>
-                    <th>Entidade</th>
-                    <th>Relacionamentos</th>
-                </tr>
-                <tr>
-                    <td>Autor</td>
-                    <td>Escreve</td>
-                </tr>
-                <tr>
-                    <td>Livro</td>
-                    <td>É emprestado</td>
-                </tr>
-                <tr>
-                    <td>Usuário</td>
-                    <td>Pega emprestado</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Emprestimo</td>
-                </tr>
-                <tr>
-                    <td>Publicadora</td>
-                    <td>Publica</td>
-                </tr>
-            </table>
-        </section>
-        <section id="projeto 2">
-            <h1>Projeto 2</h1>
-            <p>
-                Como eu já disse antes, eu participo do PIBIC. Como aprendizagem de máuqina é um assunto vasto e
-                desafiador
-                (para meros mortais como eu) decidi criar um <a href="https://github.com/JoaoGabrielTN/MachineLearning" class="link"> projeto</a> 
-                introdutório na área. Ele é um projeto ainda em
-                andamento, onde eu implemento técnicas de aprendizagem de máquina a partir do zero, sem a ajuda de bibliotecas como
-                TensorFlow, Scikit-learn, PyTorch, entre outras. Além disso, o projeto serve como um repositório que tem o objetivo
-                de oferecer uma introdução ao assunto.
-            </p>
-            <p>
-                A pasta PedestrianDetection contém apenas uma parte do có'digo original que eu utilizei no meu trabalho
-                de
-                Iniciação
-                Científica. O código é apenas um pequeno tratamento de dados realizado no DAIMLER dataset de Gravila e
-                Munders, você
-                pode acessar ele <a
-                    href="http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html"
-                    class="link">aqui</a>.
-            </p>
-            <p>A figura abaixo mostra uma imagem aleatória de um pedestre do DAIMLER dataset. As imagens do dataset tem formato
-                36x18 e variam em tonalidades de cinza, ou seja, são imagens PGM.
-            </p>
-            <figure>
-                <img src="/Imagens/img_00448.png" alt="Descrição da imagem" height="500"></img>
-                <figcaption>Exemplo de uma imagem de pedestre.</figcaption>
-            </figure>
-            <p>
-                O código disponível no repositório apenas faz um pequeno tratamento nas imagens. Ainda falta alguns detalhes, porém 
-                a planificação das matrizes (imagens) e o embaralhamento dos dados já foi realizado. A tabela 2 mostra um exemplo 
-                de como a rotulação é feita. 
-            </p>
-            <table border="1">
-                <caption>Tabela 2: rotulação das instências</caption>
-                <tr>
-                    <th>Imagem</td>
-                    <th>Rótulo</td>
-                </tr>
-                <tr>
-                    <td>pedestre</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>pedestre</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>não pedestre</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>pedestre</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>não pedestre</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>...</td>
-                    <td>...</td>
-                </tr>
-            </table>
-            <p>
-            Uma iamgem recebe rótulo 1 caso seja de pedreste, caso contrário, recebe rótulo 0. O Dataset é bem simples, com 39000 imagens no total,
-            todas elas tendo baixa resolução.  Não é um <a href="https://www.image-net.org/challenges/LSVRC/2012/" class="link">ILSVRC2012</a> da vida, mas já 
-            serve como um conjunto de dados básico para aprender aprendizagem de máquina.
-            </p>
+        <section>
+            <h2>Outras páginas</h2>
+            <p>Abaixo estão os links para dois projetos meus.</p>
+            <ul>
+                <li><a href="/outras/projeto1.html" class="linkh" draggable="false">Projeto 1</a></li>
+                <li><a href="/outras/projeto2.html" class="linkh" draggable="false">Projeto 2</a></li>
+                <li><a href="/outras/LinReg.html" class="=linkh">Aulas de aprendizagem de máquina</a></li>
+            </ul>
         </section>
     </div>
     <section id="contato">
@@ -178,17 +71,14 @@
                 </div>
                 <div class="contato">
                     <h3>Contato</h3>
-                    <p>Endereço: Rua Exemplo, 123</p>
                     <p>Email: joao.00000845222@unicap.br</p>
-                    <p>Telefone: (00) 1234-5678</p>
+                    <p>Telefone: (81) 99684-5391</p>
                     <a href="/contato.html" class="link">Contato</a>
                 </div>
                 <div class="social">
                     <h3>Siga-me</h3>
                     <ul>
-                        <li><a href="#">Facebook</a></li>|
-                        <li><a href="#">Twitter</a></li>|
-                        <li><a href="#">Instagram</a></li>
+                        <li><a href="https://github.com/JoaoGabrielTN">GitHub</a></li>
                     </ul>
                 </div>
             </div>
